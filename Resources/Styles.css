@@ -1,0 +1,59 @@
+.button {
+    -fx-background-color: linear-gradient(#483D8D, #9370DB);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: BLACK;
+}
+
+
+.text-field{
+    -fx-max-width: 10cm;
+    -fx-max-height: 3cm;
+
+}
+
+.text-field:focused{
+    -fx-border-color: green;
+}
+
+.table-view{
+    -fx-background-color: #9370DB;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#logout{
+    -fx-background-color: linear-gradient(#483D8D, #9370DB);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+    -fx-max-width: 10cm;
+    -fx-max-height: 3cm;
+    -fx-text-fill: darkred;
+}
+
+#back{
+    -fx-background-color: linear-gradient(#483D8D, #9370DB);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+    -fx-max-width: 10cm;
+    -fx-max-height: 3cm;
+    -fx-text-fill: black;
+}
+
+#type{
+    -fx-font-size: 40;
+    -fx-font-weight: BOLD;
+    -fx-fill: deeppink;
+}
+
+#leadershipBox{
+    -fx-background-image: url("background.jpg");
+}
+
+VBox {
+    -fx-background-image: url("mainbg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+    -fx-spacing: 30px;
+    -fx-alignment: center;
+}

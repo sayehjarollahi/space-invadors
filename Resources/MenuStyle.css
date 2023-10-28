@@ -1,0 +1,18 @@
+.button{
+    -fx-background-color: linear-gradient(#483D8D, #9370DB);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-max-width: 15cm;
+    -fx-text-fill: BLACK;
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+
+VBox{
+    -fx-background-image: url("menu.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: stretch;
+    -fx-spacing: 30px;
+    -fx-alignment: center;
+}
